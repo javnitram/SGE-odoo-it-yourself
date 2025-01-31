@@ -35,7 +35,6 @@ services:
       - odoo_data:/var/lib/odoo
   pgadmin:
     image: dpage/pgadmin4:latest
-    container_name: pgadmin
     environment:
       PGADMIN_DEFAULT_EMAIL: admin@admin.com
       PGADMIN_DEFAULT_PASSWORD: Passw0rd

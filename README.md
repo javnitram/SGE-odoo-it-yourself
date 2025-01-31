@@ -16,7 +16,7 @@ Proyecto final SGE con Odoo, Docker, Docker Compose, Git y GitHub.
 
 ## _Fork_ del repositorio original
 
-Inicia sesión en tu cuenta de GitHub, haz un _fork_ de [javnitram/SGE-odoo-it-yourself](https://github.com/javnitram/SGE-odoo-it-yourself) y llama al tuyo SGE-odoo-dev-**XX** (el valor correspondiente a tu número de puesto, según **los dígitos del hostname de clase**).
+Inicia sesión en tu cuenta de GitHub, haz un _fork_ de [javnitram/SGE-odoo-it-yourself](https://github.com/javnitram/SGE-odoo-it-yourself) y llama al tuyo SGE-odoo-dev**Z**-**XX**, donde **Z** es la **letra de tu grupo (A, B, V)** y **XX** es el valor correspondiente a tu número de puesto, según **los dígitos del hostname de clase**.
 
 ![Fork](https://github.com/user-attachments/assets/a384ed5f-e5aa-4ba2-90ae-f78e09338793)
 
