@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "sg_libreria",
+    'name': "fjg_tiendazapas",
 
     'summary': "Short (1 phrase/line) summary of the module's purpose",
 
