@@ -2,6 +2,7 @@ version: '3.8'
 services:
   db:
     image: postgres:15
+    container_name: postgres
     environment:
       - POSTGRES_DB=postgres
       - POSTGRES_PASSWORD=odoo
@@ -19,6 +20,7 @@ services:
       - '5432'
   odoo:
     image: odoo:17.0
+    container_name: odoo
     depends_on:
       - db
     ports:
@@ -33,6 +35,7 @@ services:
       - odoo_data:/var/lib/odoo
   pgadmin:
     image: dpage/pgadmin4:latest
+    container_name: pgadmin4
     environment:
       PGADMIN_DEFAULT_EMAIL: admin@admin.com
       PGADMIN_DEFAULT_PASSWORD: Passw0rd
