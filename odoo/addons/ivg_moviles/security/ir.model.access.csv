@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_ivg_moviles_ivg_moviles,ivg_moviles.ivg_moviles,model_ivg_moviles_ivg_moviles,base.group_user,1,1,1,1
