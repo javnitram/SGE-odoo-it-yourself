@@ -1,0 +1,59 @@
+<odoo>
+  <data>
+
+    <record id="ivg_moviles.cliente_form" model="ir.ui.view">
+      <field name="name">ivg_moviles.cliente.form</field>
+      <field name="model">ivg_moviles.cliente</field>
+      <field name="arch" type="xml">
+        <form string="Clientes">
+          <sheet>
+            <group>
+              <field name="name" />
+              <field name="apellidos" />
+              <field name="correo" />
+              <field name="telefono" />
+            </group>
+          </sheet>
+        </form>
+      </field>
+    </record>
+ 
+   <record id="ivg_moviles.cliente_tree" model="ir.ui.view">
+    <field name="name">ivg_moviles.cliente.tree</field>
+    <field name="model">ivg_moviles.cliente</field>
+    <field name="arch" type="xml">
+      <tree string="">
+        <field name="name" />
+        <field name="apellidos" />
+        <field name="correo" />
+        <field name="telefono" />
+      </tree>
+    </field>
+   </record>
+
+   <record id="ivg_moviles.cliente_kanban" model="ir.ui.view">
+      <field name="name">ivg_moviles.cliente.kanban</field>
+      <field name="model">ivg_moviles.cliente</field>
+      <field name="arch" type="xml">
+        <kanban class="o_kanban_view">
+          <templates>
+            <t t-name="kanban-box">
+              <div class="oe_kanban_card">
+                <div class="o_kanban_image">
+                  <strong><field name="name" /> <field name="apellidos" /></strong>
+                </div>
+                <div>
+                  <strong>Correo:</strong> <field name="correo" />
+                </div>
+                <div>
+                  <strong>Teléfono:</strong> <field name="telefono" />
+                </div>
+              </div>
+            </t>
+          </templates>
+        </kanban>
+      </field>
+    </record>
+
+  </data>
+</odoo>

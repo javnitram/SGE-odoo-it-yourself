@@ -1,0 +1,79 @@
+<odoo>
+  <data>
+
+    <record id="ivg_moviles.movil_form" model="ir.ui.view">
+      <field name="name">ivg_moviles.movil.form</field>
+      <field name="model">ivg_moviles.movil</field>
+      <field name="arch" type="xml">
+        <form string="Movil">
+          <sheet>
+            <group>
+              <field name="marca" />
+              <field name="modelo" />
+              <field name="precio" />
+              <field name="ram" />
+              <field name="almacenamiento" />
+              <field name="pantalla" />
+              <field name="camara" />
+              <field name="procesador" />
+            </group>
+          </sheet>
+        </form>
+      </field>
+    </record>
+
+    <record id="ivg_moviles.movil_tree" model="ir.ui.view">
+      <field name="name">ivg_moviles.movil.tree</field>
+      <field name="model">ivg_moviles.movil</field>
+      <field name="arch" type="xml">
+        <tree string="Movil">
+          <field name="marca" />
+          <field name="modelo" />
+          <field name="precio" />
+          <field name="ram" />
+          <field name="almacenamiento" />
+          <field name="pantalla" />
+          <field name="camara" />
+          <field name="procesador" />
+        </tree>
+      </field>
+    </record>
+
+    <record id="ivg_moviles.movil_kanban" model="ir.ui.view">
+      <field name="name">ivg_moviles.movil.kanban</field>
+      <field name="model">ivg_moviles.movil</field>
+      <field name="arch" type="xml">
+        <kanban class="o_kanban_view">
+          <templates>
+            <t t-name="kanban-box">
+              <div class="oe_kanban_card">
+                <div class="o_kanban_image">
+                  <field name="marca" /> - <field name="modelo" />
+                </div>
+                <div>
+                  <strong>Precio:</strong> <field name="precio" />
+                </div>
+                <div>
+                  <strong>RAM:</strong> <field name="ram" /> GB
+                </div>
+                <div>
+                  <strong>Almacenamiento:</strong> <field name="almacenamiento" /> GB
+                </div>
+                <div>
+                  <strong>Pantalla:</strong> <field name="pantalla" />
+                </div>
+                <div>
+                  <strong>Cámara:</strong> <field name="camara" />
+                </div>
+                <div>
+                  <strong>Procesador:</strong> <field name="procesador" />
+                </div>
+              </div>
+            </t>
+          </templates>
+        </kanban>
+      </field>
+    </record>
+
+  </data>
+</odoo>

@@ -1,7 +1,7 @@
 from odoo import models, fields
 
 class Movil(models.Model):
-    _name = 'ivg_moviles_movil'
+    _name = 'ivg_moviles.movil'
     _description = 'Movil'
 
     marca = fields.Char('Marca',required=True)
@@ -12,5 +12,3 @@ class Movil(models.Model):
     pantalla = fields.Char('Pantalla')
     camara = fields.Char('Camara')
     procesador = fields.Char('Procesador')
-    
-    
