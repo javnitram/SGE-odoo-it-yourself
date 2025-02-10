@@ -1,0 +1,17 @@
+<odoo>
+    <data>
+<record id="ivg_moviles.demo_cliente_1" model="ivg_moviles.cliente">
+      <field name="name">Juan</field>
+      <field name="apellidos">Pérez</field>
+      <field name="correo">juan.perez@example.com</field>
+      <field name="telefono">123456789</field>
+    </record>
+
+    <record id="ivg_moviles.demo_cliente_2" model="ivg_moviles.cliente">
+      <field name="name">María</field>
+      <field name="apellidos">Gómez</field>
+      <field name="correo">maria.gomez@example.com</field>
+      <field name="telefono">987654321</field>
+    </record>
+    </data>
+</odoo>
