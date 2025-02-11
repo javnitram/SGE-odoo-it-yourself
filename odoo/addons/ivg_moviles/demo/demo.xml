@@ -1,10 +1,11 @@
 <odoo>
-    <data>
-<record id="ivg_moviles.demo_cliente_1" model="ivg_moviles.cliente">
+  <data>
+  <!--CLIENTES-->
+    <record id="ivg_moviles.demo_cliente_1" model="ivg_moviles.cliente">
       <field name="name">Juan</field>
       <field name="apellidos">Pérez</field>
       <field name="correo">juan.perez@example.com</field>
-      <field name="telefono">123456789</field>
+      <field name="telefono">923456789</field>
     </record>
 
     <record id="ivg_moviles.demo_cliente_2" model="ivg_moviles.cliente">
@@ -13,5 +14,79 @@
       <field name="correo">maria.gomez@example.com</field>
       <field name="telefono">987654321</field>
     </record>
-    </data>
+
+    <record id="ivg_moviles.demo_cliente_3" model="ivg_moviles.cliente">
+  <field name="name">Carlos</field>
+  <field name="apellidos">Fernández</field>
+  <field name="correo">carlos.fernandez@example.com</field>
+  <field name="telefono">912345678</field>
+</record>
+
+<record id="ivg_moviles.demo_cliente_4" model="ivg_moviles.cliente">
+  <field name="name">Ana</field>
+  <field name="apellidos">López</field>
+  <field name="correo">ana.lopez@example.com</field>
+  <field name="telefono">923456789</field>
+</record>
+
+<record id="ivg_moviles.demo_cliente_5" model="ivg_moviles.cliente">
+  <field name="name">Javier</field>
+  <field name="apellidos">Martínez</field>
+  <field name="correo">javier.martinez@example.com</field>
+  <field name="telefono">934567890</field>
+</record>
+
+<record id="ivg_moviles.demo_cliente_6" model="ivg_moviles.cliente">
+  <field name="name">Laura</field>
+  <field name="apellidos">Sánchez</field>
+  <field name="correo">laura.sanchez@example.com</field>
+  <field name="telefono">945678901</field>
+</record>
+
+<record id="ivg_moviles.demo_cliente_7" model="ivg_moviles.cliente">
+  <field name="name">David</field>
+  <field name="apellidos">Ruiz</field>
+  <field name="correo">david.ruiz@example.com</field>
+  <field name="telefono">956789012</field>
+</record>
+
+<record id="ivg_moviles.demo_cliente_8" model="ivg_moviles.cliente">
+  <field name="name">Elena</field>
+  <field name="apellidos">Torres</field>
+  <field name="correo">elena.torres@example.com</field>
+  <field name="telefono">967890123</field>
+</record>
+
+<record id="ivg_moviles.demo_cliente_9" model="ivg_moviles.cliente">
+  <field name="name">Manuel</field>
+  <field name="apellidos">García</field>
+  <field name="correo">manuel.garcia@example.com</field>
+  <field name="telefono">978901234</field>
+</record>
+
+<record id="ivg_moviles.demo_cliente_10" model="ivg_moviles.cliente">
+  <field name="name">Carmen</field>
+  <field name="apellidos">Morales</field>
+  <field name="correo">carmen.morales@example.com</field>
+  <field name="telefono">989012345</field>
+</record>
+
+<record id="ivg_moviles.demo_cliente_11" model="ivg_moviles.cliente">
+  <field name="name">Sergio</field>
+  <field name="apellidos">Ortega</field>
+  <field name="correo">sergio.ortega@example.com</field>
+  <field name="telefono">990123456</field>
+</record>
+
+<record id="ivg_moviles.demo_cliente_12" model="ivg_moviles.cliente">
+  <field name="name">Isabel</field>
+  <field name="apellidos">Hernández</field>
+  <field name="correo">isabel.hernandez@example.com</field>
+  <field name="telefono">901234567</field>
+</record>
+
+   <!--MOVILES-->
+
+
+  </data>
 </odoo>

@@ -16,6 +16,7 @@
               <field name="pantalla" />
               <field name="camara" />
               <field name="procesador" />
+              <field name="imagen" widget="image"/>
             </group>
           </sheet>
         </form>
@@ -35,6 +36,7 @@
           <field name="pantalla" />
           <field name="camara" />
           <field name="procesador" />
+           <field name="imagen" widget="image"/>
         </tree>
       </field>
     </record>
@@ -67,6 +69,9 @@
                 </div>
                 <div>
                   <strong>Procesador:</strong> <field name="procesador" />
+                </div>
+                <div>
+                  <strong>Imagen:</strong> <field name="imagen" widget="image"></field>
                 </div>
               </div>
             </t>

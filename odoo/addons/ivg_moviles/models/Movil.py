@@ -12,3 +12,4 @@ class Movil(models.Model):
     pantalla = fields.Char('Pantalla')
     camara = fields.Char('Camara')
     procesador = fields.Char('Procesador')
+    imagen = fields.Binary('Imagen')

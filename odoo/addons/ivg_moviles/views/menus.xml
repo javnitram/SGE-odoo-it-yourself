@@ -1,0 +1,46 @@
+<odoo>
+    <data>
+    <!--Acciones-->
+   <record id="ivg_moviles.cliente_action" model="ir.actions.act_window">
+            <field name="name">Clientes</field>
+            <field name="res_model">ivg_moviles.cliente</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+       <record id="ivg_moviles.movil_action" model="ir.actions.act_window">
+            <field name="name">Teléfonos móviles</field>
+            <field name="res_model">ivg_moviles.movil</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+     
+
+     <!--Menus-->
+    <menuitem
+        id="ivg_moviles.root_menu"
+        name="Tienda de móviles"
+        sequence="10"/>
+    <menuitem
+        id="ivg_moviles.cliente_menu"
+        name="Clientes"
+        action="ivg_moviles.cliente_action"
+        parent="ivg_moviles.root_menu"
+        sequence="10"/>
+
+
+
+    <menuitem
+        id="ivg_moviles.root_menu"
+        name="Tienda de móviles"
+        sequence="10"/>
+    <menuitem
+        id="ivg_moviles.movil_menu"
+        name="Moviles"
+        action="ivg_moviles.movil_action"
+        parent="ivg_moviles.root_menu"
+        sequence="10"/>
+    
+     
+  
+    </data>
+</odoo>
