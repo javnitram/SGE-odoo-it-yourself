@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <data>
+    
+        <record id="fjg_tiendazapas.Marca_form" model="ir.ui.view">
+            <field name="name">fjg_tiendazapas.Marca.form</field>
+            <field name="model">fjg_tiendazapas.Marca</field>
+            <field name="arch" type="xml">
+                <form string="Marca">
+                    <sheet>
+                        <group>
+                            <field name="name"></field>
+                            <field name="description"/>  
+                            
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+    
+        <record id="fjg_tiendazapas.Marca_tree" model="ir.ui.view">
+            <field name="name">fjg_tiendazapas.Marca.tree</field>
+            <field name="model">fjg_tiendazapas.Marca</field>
+            <field name="arch" type="xml">
+                <tree string="Marca">
+                    <field name="name"></field>
+                    <field name="description"/>
+                </tree>
+            </field>
+        </record>
+    </data>
+</odoo>
